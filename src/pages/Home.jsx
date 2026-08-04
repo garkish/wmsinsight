@@ -7,8 +7,9 @@ export default function Home() {
         <div className="container">
           <h1>Choosing the right Warehouse Management System shouldn't be a guess.</h1>
           <p className="hero-sub">
-            Independent, experience-based guidance on Infios WM, SAP EWM, Manhattan, and Blue Yonder
-            &mdash; written from 12+ years of implementations, integrations, and go-lives, not datasheets.
+            Practitioner guidance on Infios WM, SAP EWM, Manhattan, and Blue Yonder &mdash; written from
+            12+ years of implementations, integrations, and go-lives, not datasheets. I work at Infios;
+            every comparison says so up front.
           </p>
           <div className="hero-actions">
             <Link to="/guides/infios-vs-sap-ewm-vs-manhattan-vs-blue-yonder" className="btn btn-primary">
@@ -34,10 +35,11 @@ export default function Home() {
               </p>
             </div>
             <div className="card">
-              <h3>No vendor bias</h3>
+              <h3>Disclosed, not hidden</h3>
               <p>
-                WMSInsight isn&rsquo;t affiliated with, sponsored by, or reselling any WMS vendor.
-                The comparisons reflect real trade-offs, including when Infios is not the right answer.
+                I currently work at Infios &mdash; that&rsquo;s disclosed on every comparison, not buried.
+                The write-ups aim for real trade-offs, including where Infios is not the right answer,
+                so you can weigh the affiliation yourself rather than take neutrality on faith.
               </p>
             </div>
             <div className="card">
