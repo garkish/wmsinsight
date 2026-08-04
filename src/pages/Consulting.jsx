@@ -2,11 +2,10 @@ export default function Consulting() {
   return (
     <section className="section">
       <div className="container container-narrow">
-        <h1>WMS Implementation Advice</h1>
+        <h1>Independent WMS Implementation Advice</h1>
         <p className="page-sub">
           Considering a new WMS implementation, a multi-client 3PL design, or a migration between
-          platforms? Get an experience-based opinion before you sign anything. I work at Infios, so
-          weigh that alongside the advice &mdash; disclosed, not hidden.
+          platforms? Get a vendor-neutral opinion before you sign anything.
         </p>
 
         <div className="grid-3">

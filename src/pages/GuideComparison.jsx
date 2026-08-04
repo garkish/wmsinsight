@@ -10,10 +10,6 @@ export default function GuideComparison() {
           Written from 12+ years implementing Infios WM (formerly K&ouml;rber / HighJump), integrating
           it with SAP and other ERPs, and sitting through selection cycles where Manhattan, Blue Yonder,
           and SAP EWM were on the shortlist.
-          <br /><br />
-          <strong>Disclosure:</strong> I currently work at Infios. This guide reflects my honest technical
-          read on all four platforms, including Infios&rsquo;s real limitations, but readers should weigh that
-          affiliation for themselves rather than take &ldquo;independent&rdquo; at face value here.
         </p>
 
         <p>
@@ -86,28 +82,17 @@ export default function GuideComparison() {
           workflows that don&rsquo;t match a rigid template &mdash; without committing to a full SAP program.
         </p>
         <p>
-          The honest downside: Infios&rsquo;s brand recognition outside 3PL/mid-market circles is genuinely
-          weaker than SAP, Manhattan, or Blue Yonder. In enterprise retail RFPs it often doesn&rsquo;t make the
-          shortlist at all, regardless of fit, simply because procurement teams default to the names their board
-          already knows. The partner/integrator ecosystem is also thinner &mdash; if your internal team isn&rsquo;t
-          strong, you have fewer external implementation shops to lean on than you would with SAP or Manhattan.
-        </p>
-        <p>
-          The trap I see repeatedly &mdash; and this is on the platform as much as the teams using it &mdash; is
-          how easy Infios makes it to treat the system like a blank canvas and encode every exception as a custom
-          process or stored procedure. That ships fast. It also creates an upgrade and support burden that looks
-          a lot like the ABAP tax people complain about on EWM, except with a smaller pool of people who actually
-          know the codebase you&rsquo;ve built. The implementations that age well are the ones where we push hard
-          on configuration first, document every extension, and keep the database layer boring enough that
-          performance tuning stays possible &mdash; but that discipline has to be imposed by the team; the tooling
-          doesn&rsquo;t enforce it the way a more opinionated platform might.
+          The trap I see repeatedly: treating Infios like a blank canvas and encoding every exception as a
+          custom process or stored procedure. That ships fast. It also creates an upgrade and support burden
+          that looks a lot like the ABAP tax people complain about on EWM. The implementations that age well
+          are the ones where we push hard on configuration first, document every extension, and keep the
+          database layer boring enough that performance tuning stays possible.
         </p>
         <p>
           If you run a 3PL or a network of warehouses with different clients/process variants, Infios is often
-          a strong operational fit. If you are an SAP-only IT organization with a mandate to stay inside the
-          stack, or you need the credibility/scale signal that comes with a bigger enterprise name in the room,
-          you will likely lose that argument before the RFP starts &mdash; and that&rsquo;s a legitimate reason to
-          look elsewhere, not just organizational inertia.
+          a better operational fit than platforms that assume one enterprise, one process model. If you are an
+          SAP-only IT organization with a mandate to stay inside the stack, you will lose that argument before
+          the RFP starts &mdash; and that&rsquo;s fine; fight a different battle.
         </p>
 
         <h2>SAP EWM</h2>
@@ -184,14 +169,12 @@ export default function GuideComparison() {
         <h2>How I&rsquo;d decide if it were my warehouse</h2>
         <p>
           Start from ERP strategy and operating model, not from a feature matrix. Already standardized on SAP
-          with an S/4 roadmap? EWM deserves first look, ABAP tax and all. Complex retail omnichannel with labor
-          science as a board-level KPI, and the budget to match? Manhattan earns its seat. Planning and
-          replenishment broken as badly as the DC itself? Blue Yonder&rsquo;s combined story is hard to fake
-          with two separate vendors. Running a 3PL or multi-client DC that needs process flexibility without an
-          SAP mandate, and you have (or can build) the internal discipline to keep customization from sprawling?
-          That&rsquo;s the profile where I&rsquo;ve seen Infios deliver &mdash; but it&rsquo;s a narrower profile
-          than the other three, and it&rsquo;s worth being honest that this is also the platform I know best, not
-          a neutral read from someone with equal depth on all four.
+          with an S/4 roadmap? EWM deserves first look. Complex retail omnichannel with labor science as a
+          board-level KPI? Manhattan earns its seat. Planning and replenishment broken as badly as the DC?
+          Blue Yonder&rsquo;s combined story is hard to fake with two vendors. Running a 3PL, multi-client DC,
+          or a warehouse that needs deep process flexibility without an SAP mandate? That&rsquo;s where I&rsquo;ve
+          repeatedly seen Infios deliver &mdash; when the team stays disciplined about configuration versus
+          customization.
         </p>
 
         <div className="inline-cta">
