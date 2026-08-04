@@ -34,6 +34,14 @@ export default function Guides() {
               and an onboarding checklist that scales past client number three.
             </p>
           </Link>
+
+          <Link to="/guides/gartner-magic-quadrant-wms" className="guide-list-item">
+            <h3>The Gartner Magic Quadrant for WMS: What It Actually Tells You</h3>
+            <p>
+              How to read the 2026 report, where quadrant position genuinely helps a shortlist, and where
+              it stops being useful for your specific decision.
+            </p>
+          </Link>
         </div>
       </div>
     </section>

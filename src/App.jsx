@@ -5,6 +5,7 @@ import Guides from './pages/Guides'
 import GuideComparison from './pages/GuideComparison'
 import GuideIntegration from './pages/GuideIntegration'
 import GuideMultiClient from './pages/GuideMultiClient'
+import GuideGartnerMQ from './pages/GuideGartnerMQ'
 import Consulting from './pages/Consulting'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/guides/sap-ewm-vs-manhattan-vs-blue-yonder" element={<GuideComparison />} />
           <Route path="/guides/wms-erp-integrations" element={<GuideIntegration />} />
           <Route path="/guides/multi-client-3pl-wms" element={<GuideMultiClient />} />
+          <Route path="/guides/gartner-magic-quadrant-wms" element={<GuideGartnerMQ />} />
           <Route path="/consulting" element={<Consulting />} />
         </Route>
       </Routes>
