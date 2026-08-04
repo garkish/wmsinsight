@@ -36,7 +36,8 @@ export default function Layout() {
           <p>&copy; {new Date().getFullYear()} WMSInsight. Independent analysis for warehouse technology decisions.</p>
           <p className="footer-disclaimer">
             WMSInsight is an independent resource. All product names, trademarks, and registered trademarks
-            (SAP&reg; EWM, Manhattan Associates&reg;, Blue Yonder&reg;) are property of their respective owners.
+            (Infios&reg;, K&ouml;rber&reg;, HighJump&reg;, SAP&reg; EWM, Manhattan Associates&reg;, Blue
+            Yonder&reg;) are property of their respective owners.
           </p>
         </div>
       </footer>

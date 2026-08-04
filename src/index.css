@@ -210,6 +210,20 @@ main {
   text-align: center;
 }
 
+.home-guide-list {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.section-alt .section h2,
+.section-alt > .container > h2 {
+  text-align: center;
+}
+
+.guide h3 {
+  margin-top: 28px;
+}
+
 .cta-section {
   text-align: center;
 }
