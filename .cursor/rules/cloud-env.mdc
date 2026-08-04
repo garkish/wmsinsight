@@ -1,0 +1,11 @@
+---
+description: Cursor Cloud environment is already set up for this project
+alwaysApply: true
+---
+
+# Cloud environment
+
+This project (wmsinsight) already has a Cursor Cloud Agent environment configured.
+
+- Prefer using the existing cloud environment; do not treat the repo as lacking cloud env setup.
+- When working as a cloud agent, assume standard install/start from that environment rather than reinventing setup from scratch unless something is clearly broken.
